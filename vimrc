@@ -36,7 +36,7 @@ set ofu=syntaxcomplete#Complete
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set t_Co=256              " enable 256-color mode.
 syntax enable             " enable syntax highlighting (previously syntax on).
-colorscheme molokai       " set colorscheme
+" colorscheme molokai       " set colorscheme
 
 " Prettify JSON files
 autocmd BufRead,BufNewFile *.json set filetype=json
@@ -93,4 +93,4 @@ set nowrap                " don't wrap text
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 " Prettify JSON files making them easier to read
-command PrettyJSON %!python -m json.tool
+" command PrettyJSON %!python -m json.tool
