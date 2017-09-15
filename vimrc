@@ -19,7 +19,7 @@ Plugin 'tpope/vim-fugitive' " the ultimate git helper
 Plugin 'tpope/vim-commentary' " comment/uncomment lines with gcc or gc in visual mode
 
 " colorschemes
-colorscheme carbonized-dark
+" colorscheme carbonized-dark
 
 " JavaScript plugins
 Plugin 'pangloss/vim-javascript'
