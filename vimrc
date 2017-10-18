@@ -5,8 +5,8 @@
 " load plugins from vundle
 filetype off
 
-set rtp+=~/.vim/bundle/vundle/
-call vundle#begin()
+set rtp+=~/dotfiles/bundle/vundle.vim/
+call vundle#begin('~/dotfiles/bundle/')
 
 " let vundle manage vundle
 Plugin 'gmarik/vundle'
