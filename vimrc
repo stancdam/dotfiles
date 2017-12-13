@@ -17,7 +17,7 @@ Plugin 'scrooloose/nerdtree' " file drawer, open with :NERDTreeToggle
 Plugin 'benmills/vimux'
 Plugin 'tpope/vim-fugitive' " the ultimate git helper
 Plugin 'tpope/vim-commentary' " comment/uncomment lines with gcc or gc in visual mode
-
+Plugin 'scrooloose/nerdcommenter' " nerd commenter
 " colorschemes
 " colorscheme carbonized-dark
 
@@ -40,8 +40,8 @@ let mapleader = ','
 " Tab control
 set noexpandtab " tabs ftw
 set smarttab " tab respects 'tabstop', 'shiftwidth', and 'softtabstop'
-set tabstop=4 " the visible width of tabs
-set softtabstop=4 " edit as if the tabs are 4 characters wide
+set tabstop=8 " the visible width of tabs
+set softtabstop=0 noexpandtab " edit as if the tabs are 4 characters wide
 set shiftwidth=4 " number of spaces to use for indent and unindent
 set shiftround " round indent to a multiple of 'shiftwidth'
 
